@@ -1,0 +1,9 @@
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\bin\Debug\Tamir.sharpSsh.dll
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\bin\Debug\Tamir.sharpSsh.pdb
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\bin\Debug\DiffieHellman.dll
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\bin\Debug\Org.Mentalis.Security.dll
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\obj\Debug\ResolveAssemblyReference.cache
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\obj\Debug\Tamir.SharpSsh.jsch.examples.InputForm.resources
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\obj\Debug\sharpSsh.csproj.GenerateResource.Cache
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\obj\Debug\Tamir.sharpSsh.dll
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\obj\Debug\Tamir.sharpSsh.pdb

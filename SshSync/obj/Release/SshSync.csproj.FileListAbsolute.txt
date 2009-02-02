@@ -1,0 +1,7 @@
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SshSync\bin\Release\SSHSync.exe
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SshSync\bin\Release\SshSyncDLL.dll
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SshSync\bin\Release\Org.Mentalis.Security.dll
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SshSync\bin\Release\DiffieHellman.dll
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SshSync\bin\Release\Tamir.sharpSsh.dll
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SshSync\obj\Release\ResolveAssemblyReference.cache
+C:\Files_Development\VisualStudio\FinishedCode\SshSync\SshSync\obj\Release\SSHSync.exe

@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Tamir.SharpSsh.Scp" Collapsed="true">
+    <Position X="13.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Scp.cs</FileName>
+      <HashCode>AgAqCAAASABAQABAQAIAgAAAAIBMCAAAEAAAAAAAEAw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.Sftp" Collapsed="true">
+    <Position X="15.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Sftp.cs</FileName>
+      <HashCode>AAAIIAAAQAAAQABAAAAQAAAAAAAAAAAEAAICAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.SshBase" Collapsed="true">
+    <Position X="12" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SshBase.cs</FileName>
+      <HashCode>IAAAgAAAABgAQAAAEQgAAYQUCIAECAYCAgQAAQCAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.SshExec" Collapsed="true">
+    <Position X="8.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SshExe.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAABEAAAEACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.SshShell" Collapsed="true">
+    <Position X="11" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SshShell.cs</FileName>
+      <HashCode>AAAAiBAAAEAAwCQIAIKAIAAAAAAIAAAAAAACAAGAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.SshStream" Collapsed="true">
+    <Position X="27" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SshStream.cs</FileName>
+      <HashCode>IAAAABAAABAIQCAkGICAASxwAAAAAEAhAgAAAAGIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.SshTransferException" Collapsed="true">
+    <Position X="28.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SshTransferException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.SshTransferProtocolBase" Collapsed="true">
+    <Position X="14.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SshTransferProtocolBase.cs</FileName>
+      <HashCode>AAAIAAAAQAACAEBBAAAAAgAAAAAAAAAIAAAAAAAAACg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.Exception" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\Exception.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.Platform" Collapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\Platform.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.RuntimeException" Collapsed="true">
+    <Position X="0.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\RuntimeException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.String" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\String.cs</FileName>
+      <HashCode>AAAAQAAAgECAAgAEwGAAAABAAAQAAIEAAIgAECBAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.System" Collapsed="true">
+    <Position X="34" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\System.cs</FileName>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.Out" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\System.cs</FileName>
+      <HashCode>EAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.Err" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\System.cs</FileName>
+      <HashCode>EAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.io.File" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\io\File.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAEAAgAFAEAAAAgAIRAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.io.FileInputStream" Collapsed="true">
+    <Position X="13" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\io\FileInputStream.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAgAAAAAAAAAIAAAACAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.io.FileOutputStream" Collapsed="true">
+    <Position X="15.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\io\FileOutputStream.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAIAAAAGIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.io.InputStream" Collapsed="true">
+    <Position X="13" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\io\InputStream.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAgGCAAAABAAAAAAAAgAIAQAAEIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.io.JStream" Collapsed="true">
+    <Position X="32.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\io\JStream.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAgGGAAAABgAAAAAEAgAYgQAAGIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.io.OutputStream" Collapsed="true">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\io\OutputStream.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAgGAAAAABgAAAAAEAAAYgAAAAIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.Streams.InputStreamWrapper" Collapsed="true">
+    <Position X="15.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\io\InputStreamWrapper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.Streams.CombinedStream" Collapsed="true">
+    <Position X="30.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Streams\CombinedStream.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAgGAAAAAhgAAAAAEAhAAAAAAGIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.Streams.PipedInputStream" Collapsed="true">
+    <Position X="10.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Streams\PipedInputStream.cs</FileName>
+      <HashCode>AAAgAAhAAAgAQDAgmGAEAChgAAAAAEAhAIBAEEGIACQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.Streams.PipedOutputStream" Collapsed="true">
+    <Position X="13" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Streams\PipedOutputStream.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAgmAAAAgBgAAAAAEAgAYgAAAGIACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.Streams.ProtectedConsoleStream" Collapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Streams\ProtectedConsoleStream.cs</FileName>
+      <HashCode>AAAAAAAAAAAQQAA0mAAIAABgAAAAAMAgAIAAAAGIQCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.lang.Class" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\lang\Class.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.lang.Integer" Collapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\lang\Integer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAABAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.lang.StringBuffer" Collapsed="true">
+    <Position X="32.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\lang\StringBuffer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAGAAAABQAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.lang.Thread" Collapsed="true">
+    <Position X="20" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\lang\Thread.cs</FileName>
+      <HashCode>AAAAAAAAAQAIAAEgAAAAAAAAAAAABABAAAYAAAEAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.net.InetAddress" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\net\InetAddress.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAMgAAAAAAAAAAAEIQAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.net.ServerSocket" Collapsed="true">
+    <Position X="27" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\net\ServerSocket.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.net.Socket" Collapsed="true">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\net\Socket.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAQBAAAAAAwBAAAIQAAACAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.util.Arrays" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\util\Arrays.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.util.Enumeration" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\util\Enumeration.cs</FileName>
+      <HashCode>AAAAAAAAABAAAACAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.util.Hashtable" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\util\Hashtable.cs</FileName>
+      <HashCode>AAAACAAAAAAIAAAACAAAQAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.util.JavaString" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\util\JavaString.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.java.util.Vector" Collapsed="true">
+    <Position X="25.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\util\Vector.cs</FileName>
+      <HashCode>AkAAAAEAAAAAAAAEAIAARAAAAAQAAAAAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.Buffer" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Buffer.cs</FileName>
+      <HashCode>AIAIAIAEDgCEAAABwAAQEAAAAAQAAAAAAohQQAIBAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.Channel" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Channel.cs</FileName>
+      <HashCode>JgAYA0JRABAQBAEggIEEwBAFRgFHAhIAAYkAAEINAiA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ChannelDirectTCPIP" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelDirectTCPIP.cs</FileName>
+      <HashCode>AAAAAgAQAAAAAAQAgAQAAEAAAAEAAAoAAQkAAEAAICA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ChannelExec" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelExec.cs</FileName>
+      <HashCode>AAAAAEAAQAAAAAAgBAEAAAAAAAQAAEIAAAAAAAgAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ChannelForwardedTCPIP" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelForwardedTCPIP.cs</FileName>
+      <HashCode>AQAQBgCAAAAgAAAAIAQAAEAAAACAAAMAAAhAAAAAAgI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ChannelSession" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelSession.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ChannelSftp" Collapsed="true">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelSftp.cs</FileName>
+      <HashCode>MSyJCzxDkS4D6akoLCRSWDAhQKjjz3IGRIuRq6H8SDw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.OutputStreamPut" Collapsed="true">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelSftpStreamPut.cs</FileName>
+      <HashCode>AAAAAAQIBABAAAAAIAAAAgAAgAAAAgIAAQACAAHAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ChannelShell" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelShell.cs</FileName>
+      <HashCode>AAAAAEAAQIAAAAAgAAAAAAAAAAAAAEIAAAAAAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ChannelSubsystem" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelSubsystem.cs</FileName>
+      <HashCode>AQAAAEAAQgAAAAAgAAEAAAAAAAAAAEIAACAAAAiAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ChannelX11" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ChannelX11.cs</FileName>
+      <HashCode>GEAAAhAAAACAAABAEAwAAEEAAAAAAAgAAQkAAAIEICA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.Cipher" Collapsed="true">
+    <Position X="11.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Cipher.cs</FileName>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAgAQAIAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.Compression" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Compression.cs</FileName>
+      <HashCode>AAAAEAgAAAAAAAACAAAAAAAAAAAAAAIAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.DHG1" Collapsed="true">
+    <Position X="5.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\DHG1.cs</FileName>
+      <HashCode>YAAAAAACAAAEAAAAAAgEAAAAAJAFAAIOAEAAIAKAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.DHGEX" Collapsed="true">
+    <Position X="7.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\DHGEX.cs</FileName>
+      <HashCode>YAAAEAACAAAQAAAAAAgEAAAAABAFAAIOgEAAIELAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.HASH" Collapsed="true">
+    <Position X="1.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\HASH.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgCAAIAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.HostKey" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\HostKey.cs</FileName>
+      <HashCode>AAIAAAAAADAACAIABAAEAAAAAQABACAACAgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.HostKeyRepository" Collapsed="true">
+    <Position X="15.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\HostKeyRepository.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAACAAAAAEAAAAEAABACACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.IdentityFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\IdentityFile.cs</FileName>
+      <HashCode>6AAEIMARQBgEAAASBBGEEACZBgBZAoAAAAgUQCDALBA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.IO" Collapsed="true">
+    <Position X="28.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\IO.cs</FileName>
+      <HashCode>IAIAKAAAAAAAAAAAAACAAgABACEAAAQAAIEAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.JSch" Collapsed="true">
+    <Position X="30.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\JSch.cs</FileName>
+      <HashCode>AIAiQACIAIkAAAAAAAAQgBABAQAAAAAAAAgCAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.JSchAuthCancelException" Collapsed="true">
+    <Position X="3" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\JSchAuthCancelException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.JSchException" Collapsed="true">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\JSchException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.JSchPartialAuthException" Collapsed="true">
+    <Position X="5.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\JSchPartialAuthException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.KeyExchange" Collapsed="true">
+    <Position X="6.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\KeyExchange.cs</FileName>
+      <HashCode>QBAgAAAQTAIAAAIUAAEVAAAAABIAAJIAAQSAAOMAwAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.KeyPair" Collapsed="true">
+    <Position X="1.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\KeyPair.cs</FileName>
+      <HashCode>oABNIEUBAJggAAKiBAADGACAAFJAggAAUAwQQCGAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.KeyPairDSA" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\KeyPairDSA.cs</FileName>
+      <HashCode>AAAJAsEDAAAAAAAgBAAACAAZAhAAACAAQAAAAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.KeyPairRSA" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\KeyPairRSA.cs</FileName>
+      <HashCode>wAAJAgEDAAAAAAAgBAEgCAAZABAgAAAASAAAAAAAYAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.KnownHosts" Collapsed="true">
+    <Position X="15.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\KnownHosts.cs</FileName>
+      <HashCode>AFAgQQAAAIAoAACFAAAAAAAAAQIAAAAAEAgAACECAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.Packet" Collapsed="true">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Packet.cs</FileName>
+      <HashCode>AAAAAAAECASAAAAAAAAAAAAAAAAAAAAAAARAAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.PortWatcher" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\PortWatcher.cs</FileName>
+      <HashCode>AQAABgAAAAAAAAEAAAEACQAAAAAAAAEQAAhAAAAAAgI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.ProxyHTTP" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ProxyHTTP.cs</FileName>
+      <HashCode>AAAAICAAAAgAAAAAgBCAABAAAAAAABAAAMVAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.RequestExec" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\RequestExec.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAQQAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.RequestPtyReq" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\RequestPtyReq.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.RequestSftp" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\RequestSftp.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.RequestShell" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\RequestShell.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.RequestSignal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\RequestSignal.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAQAAIAACAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.RequestSubsystem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\RequestSubsystem.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAACAAQAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.RequestWindowChange" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\RequestWindowChange.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAgACAAQAAgAAAAAACAQAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.RequestX11" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\RequestX11.cs</FileName>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.Session" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Session.cs</FileName>
+      <HashCode>SpKiAmC6kh2X0UmGwHyNWykGKqOLgwgggU0Hvm10YuI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.SftpATTRS" Collapsed="true">
+    <Position X="32.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\SftpATTRS.cs</FileName>
+      <HashCode>CgAEUwAgCdhAEiTEHMAIDgBQEIAACwICgACAABTEgxQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.SftpException" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\SftpException.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.SftpProgressMonitor" Collapsed="true">
+    <Position X="34" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\SftpProgressMonitor.cs</FileName>
+      <HashCode>AAAAAAACAAAEAAAABAAAAAAAAAAgAAIAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.UserAuth" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\UserAuth.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.UserAuthKeyboardInteractive" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\UserAuthKeyboardInteractive.cs</FileName>
+      <HashCode>ABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.UserAuthNone" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\UserAuthNone.cs</FileName>
+      <HashCode>ABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.UserAuthPassword" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\UserAuthPassword.cs</FileName>
+      <HashCode>ABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.UserAuthPublicKey" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\UserAuthPublicKey.cs</FileName>
+      <HashCode>ABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.Util" Collapsed="true">
+    <Position X="23.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Util.cs</FileName>
+      <HashCode>ABQAAIAAwAgGAAoAACAIgAAAABQBBAAgQAAQIqQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.AES" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\AES.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.ChangePassphrase" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\ChangePassphrase.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.KeyGen" Collapsed="true">
+    <Position X="34" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\KeyGen.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.KnownHosts" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\KnownHosts.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.PortForwardingL" Collapsed="true">
+    <Position X="30.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\PortForwardingL.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.PortForwardingR" Collapsed="true">
+    <Position X="32.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\PortForwardingR.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.ScpFrom" Collapsed="true">
+    <Position X="23.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\ScpFrom.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.ScpTo" Collapsed="true">
+    <Position X="25.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\ScpTo.cs</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.Sftp" Collapsed="true">
+    <Position X="30.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\Sftp.cs</FileName>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.Shell" Collapsed="true">
+    <Position X="20" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\Shell.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.StreamForwarding" Collapsed="true">
+    <Position X="30.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\StreamForwarding.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.UserAuthPubKey" Collapsed="true">
+    <Position X="21.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\UserAuthPubKey.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.ConsoleProgressBar" Collapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\util\ConsoleProgressBar.cs</FileName>
+      <HashCode>QAQAAAASAIBIAAAAAAAAAAAAAIAACAAAAEAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.examples.InputForm" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\examples\util\InputForm.cs</FileName>
+      <HashCode>AQAAAAgAACABAAEAAQChCNACAAAAAEAAUAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.AES128CBC" Collapsed="true">
+    <Position X="10.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\AES128CBC.cs</FileName>
+      <HashCode>AEAAQAAAAAAQAACEAAAAAAAAAQgAAAIAAAAAACAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.BlowfishCBC" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\BlowfishCBC.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.DH" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\DH.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIABBAAgAAAEAAIaAEAAAIAAiAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.HMACMD5" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\HMACMD5.cs</FileName>
+      <HashCode>AAAAAAAAAACQAAABAAAAAAAAgAgEAAIAABAEAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.HMACMD596" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\HMACMD596.cs</FileName>
+      <HashCode>AAAAAAACAACQAAABAAAAAAAAgAgEAAIAABAEAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.HMACSHA1" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\HMACSHA1.cs</FileName>
+      <HashCode>AAAAAAAAAACQAAABAAAAAAAAgAgEAAIAABAEAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.HMACSHA196" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\HMACSHA196.cs</FileName>
+      <HashCode>AAAAAAACAACQAAABAAAAAAAAgAgEAAIAABAEAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.KeyPairGenDSA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\KeyPairGenDSA.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAGBgAGBgAAg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.KeyPairGenRSA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\KeyPairGenRSA.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAABAAACaGEGIAAABiEIY=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.MD5" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\MD5.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgCAAIAABAAAAAkAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.Random" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\Random.cs</FileName>
+      <HashCode>AAAAAIAAAACAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.SHA1" Collapsed="true">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\SHA1.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgCAAIAABAAAAAkAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.SignatureDSA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\SignatureDSA.cs</FileName>
+      <HashCode>CAAAAAABAAAIAAAAAQAQAAABAAAAAAIAABAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.SignatureRSA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\SignatureRSA.cs</FileName>
+      <HashCode>AAAAAAABAAAIAAAAAQAQAAABAAAAACIAABAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Tamir.SharpSsh.jsch.jce.TripleDESCBC" Collapsed="true">
+    <Position X="12.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\jce\TripleDESCBC.cs</FileName>
+      <HashCode>AEAAQAAAAAAQAAAEAAACAAAAAAgAAAIAAAAAACAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Tamir.SharpSsh.ITransferProtocol" Collapsed="true">
+    <Position X="23.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ITransferProtocol.cs</FileName>
+      <HashCode>AAAIAAAAQAAAAEBAAAAAAoAAAAAAAAAIAAAAAACAAAg=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.java.lang.Runnable" Collapsed="true">
+    <Position X="5.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>java\lang\Runnable.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.DH" Collapsed="true">
+    <Position X="20" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\DH.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIABBAAAAAAAAAIAAAAAAAAAgAI=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.ForwardedTCPIPDaemon" Collapsed="true">
+    <Position X="5.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ForwardedTCPIPDaemon.cs</FileName>
+      <HashCode>AAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.Identity" Collapsed="true">
+    <Position X="21.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Identity.cs</FileName>
+      <HashCode>AAAEIAAAAAAAAAAABAAAEAAQAAAAAIAAAAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.KeyPairGenDSA" Collapsed="true">
+    <Position X="25.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\KeyPairGenDSA.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAGBgAAg=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.KeyPairGenRSA" Collapsed="true">
+    <Position X="27" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\KeyPairGenRSA.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAABiEIY=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.MAC" Collapsed="true">
+    <Position X="28.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\MAC.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAgAAAIAAAAEAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.Proxy" Collapsed="true">
+    <Position X="30.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Proxy.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAgBAAABAAAAAAABAAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.Random" Collapsed="true">
+    <Position X="32.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Random.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.Request" Collapsed="true">
+    <Position X="34" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\Request.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.ServerSocketFactory" Collapsed="true">
+    <Position X="20" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\ServerSocketFactory.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.SignatureDSA" Collapsed="true">
+    <Position X="21.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\SignatureDSA.cs</FileName>
+      <HashCode>AAAAAAABAAAIAAAAAQAQAAAAAAAAAAIAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.SignatureRSA" Collapsed="true">
+    <Position X="23.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\SignatureRSA.cs</FileName>
+      <HashCode>AAAAAAABAAAIAAAAAQAQAAAAAAAAAAIAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.SocketFactory" Collapsed="true">
+    <Position X="25.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\SocketFactory.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.UIKeyboardInteractive" Collapsed="true">
+    <Position X="27" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\UIKeyboardInteractive.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tamir.SharpSsh.jsch.UserInfo" Collapsed="true">
+    <Position X="28.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>jsch\UserInfo.cs</FileName>
+      <HashCode>AAAEAEAAAAAIAAAAAAAIAAAAAAAAAAAAAgABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Tamir.SharpSsh.FileTransferEvent" Collapsed="true">
+    <Position X="20" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ITransferProtocol.cs</FileName>
+      <HashCode>AAAAACABAACAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

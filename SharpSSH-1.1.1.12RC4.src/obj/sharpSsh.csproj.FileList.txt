@@ -1,0 +1,16 @@
+bin\Debug\Tamir.sharpSsh.dll
+bin\Debug\Tamir.sharpSsh.pdb
+bin\Debug\DiffieHellman.dll
+bin\Debug\Org.Mentalis.Security.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Tamir.SharpSsh.jsch.examples.InputForm.resources
+obj\Debug\sharpSsh.csproj.GenerateResource.Cache
+obj\Debug\Tamir.sharpSsh.dll
+obj\Debug\Tamir.sharpSsh.pdb
+bin\Release\Tamir.sharpSsh.dll
+bin\Release\DiffieHellman.dll
+bin\Release\Org.Mentalis.Security.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Tamir.SharpSsh.jsch.examples.InputForm.resources
+obj\Release\sharpSsh.csproj.GenerateResource.Cache
+obj\Release\Tamir.sharpSsh.dll

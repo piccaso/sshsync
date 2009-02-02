@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharpSsh", "SharpSSH-1.1.1.12RC4.src\sharpSsh.csproj", "{D27CF69D-4681-492A-BE4D-D3D209104423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SshSync", "SshSync\SshSync.csproj", "{4BDAEC53-6DDD-4B1A-9449-E8E4823EBB88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SshSyncDLL", "SshSyncDLL\SshSyncDLL.csproj", "{C84C360F-51BE-4856-8C64-DA3F27E08801}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D27CF69D-4681-492A-BE4D-D3D209104423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27CF69D-4681-492A-BE4D-D3D209104423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27CF69D-4681-492A-BE4D-D3D209104423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27CF69D-4681-492A-BE4D-D3D209104423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDAEC53-6DDD-4B1A-9449-E8E4823EBB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDAEC53-6DDD-4B1A-9449-E8E4823EBB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDAEC53-6DDD-4B1A-9449-E8E4823EBB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDAEC53-6DDD-4B1A-9449-E8E4823EBB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84C360F-51BE-4856-8C64-DA3F27E08801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84C360F-51BE-4856-8C64-DA3F27E08801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84C360F-51BE-4856-8C64-DA3F27E08801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84C360F-51BE-4856-8C64-DA3F27E08801}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
