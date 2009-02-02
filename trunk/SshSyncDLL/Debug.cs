@@ -1,0 +1,85 @@
+using System;
+using System.Diagnostics;
+using System.Collections;
+
+namespace ToddSoft.Tools
+{
+    /*
+     * 
+     *   ====================================================================
+     *   ==     ToddSoft library Copyright 2007 Colin Todd, ToddSoft       ==
+     *   ====================================================================
+     *   Redistribution and use in source and binary forms, with or without
+     *   modification, are permitted provided that the following conditions are met:
+     *   1. Redistributions of source code must retain the above copyright notice,
+     *   this list of conditions and the following disclaimer.
+     *  
+     *   2. Redistributions in binary form must reproduce the above copyright 
+     *   notice, this list of conditions and the following disclaimer in 
+     *   the documentation and/or other materials provided with the distribution.
+     *  
+     *   3. The names of the authors may not be used to endorse or promote products
+     *   derived from this software without specific prior written permission.
+     *  
+     *   THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES,
+     *   INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+     *   FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR
+     *   OR ANY CONTRIBUTORS TO THIS SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT,
+     *   INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+     *   LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+     *   OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+     *   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+     *   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+     *   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     * 
+    */
+
+    
+    
+    /// <summary>
+	/// Summary description for Util.
+	/// </summary>
+	public partial class Util
+    {
+
+
+        #region DEBUG
+        /// <summary>
+        /// Write output message to the console
+        /// </summary>
+        /// <param name="strDebugText">A string containing text to be written to console</param>
+        /// <param name="DebugOn">If set to TRUE, then the text will be written. If set to FALSE, no text will be written</param>
+        public static void Debug(String strDebugText, Boolean DebugOn)
+        {
+            if (DebugOn)
+            {
+                Console.WriteLine(strDebugText);
+            }
+        }
+
+        public static void Debug(Boolean DebugOn,String strDebugText)
+        {
+            if (DebugOn)
+            {
+                Console.WriteLine(strDebugText);
+            }
+        }
+        
+        /// <summary>
+        /// Write output message and an error code to the console
+        /// </summary>
+        /// <param name="strDebugText">A string containing text to be written to console</param>
+        /// <param name="ErrorCode">A string containing the error code text</param>
+        /// <param name="DebugOn">A boolean if set to TRUE, then the text will be written. If set to FALSE, no text will be written</param>
+        public static void Debug(String strDebugText, int ErrorCode, Boolean DebugOn)
+        {
+            if (DebugOn)
+            {
+                Console.WriteLine(strDebugText + " (" + ErrorCode + ")");
+            }
+        }
+
+        
+        #endregion
+    }
+}

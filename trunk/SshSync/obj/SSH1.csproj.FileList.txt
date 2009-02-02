@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\SSH1.exe
+bin\Debug\SSH1.pdb
+bin\Debug\Tamir.sharpSsh.dll
+obj\Debug\SSH1.exe
+obj\Debug\SSH1.pdb
+bin\Debug\DiffieHellman.dll
+bin\Debug\Org.Mentalis.Security.dll
+bin\Debug\Tamir.sharpSsh.pdb
