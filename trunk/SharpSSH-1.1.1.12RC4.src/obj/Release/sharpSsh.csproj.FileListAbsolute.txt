@@ -5,3 +5,10 @@ C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\
 C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\obj\Release\Tamir.SharpSsh.jsch.examples.InputForm.resources
 C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\obj\Release\sharpSsh.csproj.GenerateResource.Cache
 C:\Files_Development\VisualStudio\FinishedCode\SshSync\SharpSSH-1.1.1.12RC4.src\obj\Release\Tamir.sharpSsh.dll
+C:\temp\sshsync\SharpSSH-1.1.1.12RC4.src\bin\Release\Tamir.sharpSsh.dll
+C:\temp\sshsync\SharpSSH-1.1.1.12RC4.src\bin\Release\DiffieHellman.dll
+C:\temp\sshsync\SharpSSH-1.1.1.12RC4.src\bin\Release\Org.Mentalis.Security.dll
+C:\temp\sshsync\SharpSSH-1.1.1.12RC4.src\obj\Release\ResolveAssemblyReference.cache
+C:\temp\sshsync\SharpSSH-1.1.1.12RC4.src\obj\Release\Tamir.SharpSsh.jsch.examples.InputForm.resources
+C:\temp\sshsync\SharpSSH-1.1.1.12RC4.src\obj\Release\sharpSsh.csproj.GenerateResource.Cache
+C:\temp\sshsync\SharpSSH-1.1.1.12RC4.src\obj\Release\Tamir.sharpSsh.dll

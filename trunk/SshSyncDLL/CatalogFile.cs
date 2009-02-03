@@ -149,12 +149,12 @@ namespace ToddSoft.Tools
 
                                     double dFileSize = Convert.ToDouble(lineSplit[1]);
 
-                                    ToddSoft.Tools.Util.Debug("Adding : '" + FileName + "' : " + dFileSize.ToString() + " bytes", _bDebugOn);
+                                    //ToddSoft.Tools.Util.Debug("Adding : '" + FileName + "' : " + dFileSize.ToString() + " bytes", _bDebugOn);
                                     //check if entry already exists
                                     if (FileEntries.ContainsKey(FileName))
                                     {
                                         // Remove duplicate before adding 'latest' details
-                                        ToddSoft.Tools.Util.Debug("Removing duplicate entry (" + FileName + ") in file catalog cache", _bDebugOn);
+                                        //ToddSoft.Tools.Util.Debug("Removing duplicate entry (" + FileName + ") in file catalog cache", _bDebugOn);
                                         FileEntries.Remove(FileName);
                                     }
                                     // Add the cache
@@ -194,12 +194,12 @@ namespace ToddSoft.Tools
 
             if (_bUseCatalogFile)
             {
-                ToddSoft.Tools.Util.Debug("Checking Catalog File for entry", _bDebugOn);
+                //ToddSoft.Tools.Util.Debug("Checking Catalog File for entry", _bDebugOn);
                 if (FileEntries.TryGetValue(FileName, out FileSizeOut))
                 {
                     if (FileSize.Equals(FileSizeOut))
                     {
-                        ToddSoft.Tools.Util.Debug("FileName / FileSize already exists in catalog", _bDebugOn);
+                        //ToddSoft.Tools.Util.Debug("FileName / FileSize already exists in catalog", _bDebugOn);
                         // exists and file size is the same
                         bExists = true;
                     }
