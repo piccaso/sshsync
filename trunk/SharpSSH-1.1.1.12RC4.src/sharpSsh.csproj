@@ -205,9 +205,6 @@
     <Compile Include="jsch\Channel.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="jsch\Channel.old.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="jsch\ChannelDirectTCPIP.cs">
       <SubType>Code</SubType>
     </Compile>
