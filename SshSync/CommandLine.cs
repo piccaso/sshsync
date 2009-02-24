@@ -163,7 +163,7 @@ namespace Toddsoft.Application
                 String Assembly_DotNetRunTime = Assembly.GetExecutingAssembly().ImageRuntimeVersion;
                 String Assembly_Name = Assembly.GetExecutingAssembly().GetName().Name.ToString();
                 String Assembly_Version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-
+                 
                 ToddSoft.Tools.Util.Debug("Name               : " + Assembly_Name, true);
                 ToddSoft.Tools.Util.Debug("Assembly Version   : " + Assembly_Version, true);
                 ToddSoft.Tools.Util.Debug("RunTime Version    : " + Assembly_DotNetRunTime, true);

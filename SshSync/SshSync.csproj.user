@@ -13,8 +13,9 @@
     <VerifyUploadedFiles>true</VerifyUploadedFiles>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <StartArguments>/S:localhost /PN:22  /C:"C:\Incoming\FileCatalog.txt" /K:"C:\Users\Colin\.ssh\id_dsa" /U:sftpuser /R:./ /D:C:\incoming /W:*.* /CR:10 /debug /test</StartArguments>
+    <StartArguments>/S:10.2.221.204 /PN:22 /P:Password1 /U:srv-sftp-IOLB /R:/IOLB /W:*.* /T:30000 /D:C:\temp  /DEBUG
+</StartArguments>
     <StartAction>Project</StartAction>
-    <StartProgram>C:\Files_Development\VisualStudio\FinishedCode\SshSync\SshSync\bin\Debug\runme22.cmd</StartProgram>
+    <StartProgram>C:\Files\WebSite_Revitalisation\SVN_Visual\sshsync\SshSync\bin\Debug\runme.cmd</StartProgram>
   </PropertyGroup>
 </Project>
