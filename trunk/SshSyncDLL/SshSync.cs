@@ -97,6 +97,11 @@ namespace Toddsoft.SSH
         public static int ConnectionStatus;  // required for TimeOut Check
         internal const int SSHNOTCONNECTED = 0;
         internal const int SSHCONNECTED = 1;
+        public static int FileRetrievalStatus;  // required for TimeOut Check
+        internal const int FILERETRIEVING = -1;
+        internal const int FILENOTRETRIEVED = 0;
+        internal const int FILERETRIEVED = 1;
+
 
         private String _HostName;
         private int _PortNumber;
@@ -109,6 +114,7 @@ namespace Toddsoft.SSH
         private String _FileWildCard;
         private String _DestFolder;
         private int _iConnectionTimeout;
+        private int _iFileRetrieveTimeout = 600000; //10 minutes
         private Boolean _bDebugOn;
         private Boolean _bTestConnection;
         private Boolean _bUseCatalogFile;
@@ -362,16 +368,29 @@ namespace Toddsoft.SSH
                                 if (!_bTestConnection)
                                 {
                                     ToddSoft.Tools.Util.Debug(_bDebugOn,"Retrieving file...");
-
+                                    Thread FileRetrieveTimeOutThread;
                                     try
                                     {
+                                        FileRetrievalStatus = FILERETRIEVING;
+
+                                        // Launch new thread to check for Timeouts
+                                        FileRetrieveTimeOutThread = new Thread(new ParameterizedThreadStart(FileRetrieveTimeOut));
+                                        // Start Timeout thread
+                                        FileRetrieveTimeOutThread.Name = "SSHSync_FileRetrieveTimeOutThread";
+                                        FileRetrieveTimeOutThread.Start((object)Thread.CurrentThread);
 
                                         //Retrieve file by SFTP
                                         _SFTPConnection.Get(_SFTPFilePath + SSHFileName, DestinationFolder);
+
+                                        FileRetrievalStatus = FILERETRIEVED;
+                                        FileRetrieveTimeOutThread.Abort();
                                     }
                                     catch (Exception ee)
                                     {
                                         ToddSoft.Tools.Util.Debug(_bDebugOn, "Error retrieving file : " + _SFTPFilePath + SSHFileName);
+                                        //FileRetrieveTimeOutThread.Abort();
+                                        FileRetrievalStatus = FILENOTRETRIEVED;
+
                                     }
 
                                         //Check that file was received correctly
@@ -443,10 +462,9 @@ namespace Toddsoft.SSH
             }
         }
 
-
         private void StartTimeOut(object oTimeout)
         {
-            // This thread will wait oTimeOut before checking if the SSH connection was successful.
+            // This thread will wait oTimeOut before checking if the SSH file retrieval was successful.
             Thread t = (Thread)oTimeout;
             int iTimeout = _iConnectionTimeout;
             Thread.Sleep(iTimeout);
@@ -456,6 +474,23 @@ namespace Toddsoft.SSH
                 // Connection has timed out. Quit.
                 ToddSoft.Tools.Util.Debug(_bDebugOn,"Error: SSH Connection has timed out after " + iTimeout + " milliseconds.");
  //               ToddSoft.Tools.Util.LogEvent("SshSync", "SSH Connection has timed out after " + iTimeout + " milliseconds. Check SSH Server is functioning and is on correct port.", EventLogEntryType.Error, SSHSYNC_SSHCONNTIMEOUT);
+                t.Abort();
+                Thread.CurrentThread.Abort();
+            }
+        }
+        private void FileRetrieveTimeOut(object oTimeout)
+        {
+            // This thread will wait oTimeOut before checking if the SSH connection was successful.
+            Thread t = (Thread)oTimeout;
+            int iTimeout = _iFileRetrieveTimeout;
+            Thread.Sleep(iTimeout);
+
+            if (FileRetrievalStatus == FILERETRIEVING)
+            {
+                // Connection has timed out. Quit.
+                ToddSoft.Tools.Util.Debug(_bDebugOn,"Error: Timeout while retrieving file after " + iTimeout + " milliseconds.");
+ //               ToddSoft.Tools.Util.LogEvent("SshSync", "SSH Connection has timed out after " + iTimeout + " milliseconds. Check SSH Server is functioning and is on correct port.", EventLogEntryType.Error, SSHSYNC_SSHCONNTIMEOUT);
+
                 t.Abort();
                 Thread.CurrentThread.Abort();
             }
